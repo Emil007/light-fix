@@ -11,7 +11,7 @@ alias: Fix Zigbee
 description: ''
 trigger:
   - platform: time_pattern
-    seconds: '/30'
+    seconds: '/15'
 action:
   - service: python_script.check_and_sync_lights
     data:
