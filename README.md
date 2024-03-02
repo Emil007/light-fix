@@ -1,8 +1,8 @@
-Why fix your broken Innr Zigee lights that randomly disconnect for a few seconds when HomeAssistant can fix them for you!
+Why fix your broken Innr Zigbee lights that randomly disconnect for a few seconds when Home Assistant can fix them for you?
 
-I've a few old bulbs that randomly disconnect from the hub for a few seconds at a time, wh ich is annoying when i try to use the switch in a room and one or two bulbs stay behind
+I have a few old bulbs that randomly disconnect from the hub for a few seconds at a time, which is mostly annoying when i try to use the switch in a room and one or two bulbs stay behind in their previous state
 
-So i thought of creating a script that checks if 70% of a group of lights (group them in your configuration.yaml) is on or off and fixes the state of the remaining bulbs. I run that via an automation every 15 seconds, and for now it works perfectly :)
+So i thought of a script that checks if 70% of a group of lights (group them in your configuration.yaml) is on or off and fixes the state of the remaining bulbs and let ChatGPT create it. I run that via an automation every 15 seconds, and for now it works perfectly :)
 
 
 Automation:
