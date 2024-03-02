@@ -7,7 +7,7 @@ So i thought of a script that checks if 70% of a group of lights (group them in 
 
 Automation:
 ```
-alias: Fix Zigee
+alias: Fix Zigbee
 description: ''
 trigger:
   - platform: time_pattern
